@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width;">
+
+		<title>My Portfolio</title>
+
+		<meta name="author" content="r4chm4t">
+		<meta name="description" content="Show digital works of r4chm4t.">
+		<meta name="keywords" content="portfolio,web development,github">
+
+		<link rel="icon" href="/assets/images/logo_r_white_16x16.png" type="image/png">
+
+		<link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" type="text/css" media="all">
+		<link rel="stylesheet" href="/assets/css/style.css" type="text/css" media="all">
+	</head>
+	<body>
+
+		<div id="home" class="wrapper">
+
+			<header>
+				<a href="/" class="text-white text-decoration-none">
+					<img src="/assets/images/logo_r_white_32x32.png" width="32" height="32" />
+				</a>
+				<nav class="nav">
+					<a href="/" class="nav-link text-white">Home</a>
+					<!--
+					<a href="/blog.html" class="nav-link text-white">Blog</a>
+					-->
+					<a href="/work.html" class="nav-link text-white active">Work</a>
+				</nav>
+			</header>
+
+			<main class="flex-grow-1">
+				<div class="container d-flex justify-content-center align-items-center">
+
+					<div>
+						<h1 class="display-3 fw-bold mb-5 text-center">My Work</h1>
+
+						<div class="d-flex flex-wrap justify-content-around card-project__list">
+
+							<div class="card border bg-transparent m-1 card-project__item">
+								<img src="/assets/images/my-portfolio-1.png" class="card-img-top" alt="My Portfolio 1" />
+								<div class="card-body">
+									<h5 class="card-title mb-3">My Portfolio</h5>
+									<p class="card-text mb-4">This is project show my work about web development.</p>
+								</div>
+								<div class="card-footer my-2">
+									<button type="button" class="btn btn-primary" onclick="window.open('https://github.com/r4chm4t/r4chm4tportfolio.github.io', '_blank')">Github</button>
+								</div>
+							</div>
+
+							<div class="card border bg-transparent m-1 card-project__item">
+								<img src="/assets/images/my-portfolio-2.png" class="card-img-top" alt="My Portfolio 1" />
+								<div class="card-body">
+									<h5 class="card-title mb-3">Listing Jobs Next Material</h5>
+									<p class="card-text mb-4">This is listing jobs app project with source jobs from Public Api Arbeitnow.com.</p>
+								</div>
+								<div class="card-footer my-2">
+									<button type="button" class="btn btn-primary" onclick="window.open('https://github.com/r4chm4t/listing-jobs-next-material', '_blank')">Github</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+			</main>
+
+			<footer>
+				<span>&copy; 2022 by <a href="https://www.fiverr.com/rachmatas" class="text-white text-decoration-none">rachmatas</a></span>
+				<ul class="navbar-nav d-flex flex-row">
+					<li class="nav-item"><a href="https://github.com/r4chm4t" target="_blank" class="nav-link text-white mx-2 social-item--hover"><img src="/assets/images/github-mark.svg" alt="Github" width="32" height="32" /></a></li>
+					<li class="nav-item"><a href="https://www.fiverr.com/rachmatas" target="_blank" class="nav-link text-white mx-2 social-item--hover"><img src="/assets/images/fiverr_icon.svg" alt="Fiverr" width="32" height="32" /></a></li>
+				</ul>
+			</footer>
+
+		</div>
+		
+		<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="/assets/js/main.js"></script>
+	</body>
+</html>
