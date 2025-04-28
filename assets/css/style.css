@@ -51,6 +51,11 @@ footer {
 	height: 150px;
 }
 
+.social-item__custom-image {
+  background-color: #959da5;
+  border-radius: 5px;
+}
+
 .social-item--hover {
 	transition: transform .5s;
 }
